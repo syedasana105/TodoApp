@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    background: url(img/purpleshade.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#000000;
+}
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 10px; 
+  }
+h1{ 
+    color: palevioletred;
+    font-weight: bolder !important;
+font: outline bolder ;
+    text-shadow: gray !important;
+    text-decoration:double ;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1:hover{
+    color: #ffffff;
+}
+#todo-item{
+    margin:5px 5px 5px 5px ;
+    padding: 5px 5px 5px 5px;
+    border-style: double;
+    border-color: indianred;
+    background-color:lightpink;
+
+}
+#add-item{
+    margin:5px 5px 5px 5px ;
+    padding: 5px 5px 5px 5px;
+    border-style: double;
+    border-color: indianred;
+    background-color:lightpink;
+    
+}
+#add-item:hover{
+    background-color: palegreen;
+}
+#delete-item:hover{
+    background-color: palegreen;
+}
+#todo-item:hover{
+    background-color: palegreen;
+}
+#delete-item{
+    margin:5px 5px 5px 5px ;
+    padding: 5px 5px 5px 5px;
+    border-style: double;
+    border-color: indianred;
+    background-color:lightpink;
+}
+.btn{
+    text-align: left;
+    border-style: double;
+    border-radius: 2px 2px 2px 2px;
+    border-style: double;
+    border-color: #000000;
+    background-color: #1abc9c;
+    margin : 1px 4px 1px 4px ;
+    padding: 1px 2px 1px 2px;
+    
+}
+.btn:hover{
+    background-color: palegreen;
+}
+li{
+    text-align: center;
+    border-style:ridge;
+    background-color: lightpink;
+    border-color: indianred;
+    border-radius: 2px;
+    margin: 4px 3px 4px 3px;
+    padding: 2px 2px 2px 2px;
+}
+#list{
+    border-radius: 2px;
+
+    border-color: cornsilk;
+
+
+}
